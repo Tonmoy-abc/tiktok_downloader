@@ -1,0 +1,5 @@
+test*.*
+html/
+json/
+video/*
+__pycache__
