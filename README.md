@@ -26,4 +26,4 @@ This project is licensed under the [`MIT License`][license]. Feel free to modify
 
 Repository Link: <https://github.com/Tonmoy-abc/tiktok_downloader.git>
 
-[license]:[https://github.com/Tonmoy-abc/tiktok_downloader/blob/main/LICENSE]
+[license]:[https://github.com/Tonmoy-abc/threads-video-downloader/blob/main/LICENSE]
