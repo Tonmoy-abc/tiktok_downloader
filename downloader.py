@@ -5,7 +5,6 @@ import os
 def download(url:str, filePath:str, fileExt,  header:dict, session:requests.Session, chunk_size=8192):
     if not os.path.exists(os.path.dirname(filePath)):
         os.makedirs(os.path.dirname(filePath))
-        exit()
     try:
         session.headers.update(header)
         response = session.get(url, headers=header, stream=True)
