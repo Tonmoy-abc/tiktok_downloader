@@ -1,7 +1,7 @@
 # TikTok Downloader
 TikTok Downloader is a python implementation to download  TikToks.
 
-![Image](https://github.com/Tonmoy-abc/threads-video-downloader/blob/main/img/img.png?raw=true)
+![Image](https://github.com/Tonmoy-abc/tiktok_downloader/blob/master/img/img.png?raw=true)
 ## Quick Setup ##
 
 1. Clone this repository to your local machine or download the ZIP file.
