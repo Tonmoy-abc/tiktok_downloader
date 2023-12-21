@@ -89,7 +89,6 @@ def url_validator(url):
 if __name__ == '__main__':
     args = parse_arguments()
     if args.url:
-        print(url_validator(args.url))
         if args.download:
             Download(args.url, status=1)
         elif args.info:
