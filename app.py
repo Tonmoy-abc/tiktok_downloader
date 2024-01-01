@@ -75,7 +75,7 @@ def parse_arguments() -> argparse.Namespace:
     parser = argparse.ArgumentParser(prog='app.py' , description="TikTik Downloader is a python app for downloading TikToks")
     parser.add_argument('-d', '--download', action='store_true', help="Download option")
     parser.add_argument('--url', '-u', help="URL of the TikTok video",)
-    parser.add_argument('--info',  help="For showing video info")
+    parser.add_argument('--info', action='store_true', help="For showing video info")
     args = parser.parse_args()
     return args
 
