@@ -1,0 +1,27 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - main  
+
+jobs:
+  scrape-and-save:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x' 
+
+      - name: Install requiremts.txt
+        run: |
+          pip install -r requiremts.txt
+
+      - name: Run Python Script
+        run: |
+          python app.py --url "https://www.tiktok.com/@asphalt_9official/video/7216255815844465966?is_from_webapp=1&sender_device=pc&web_id=7307208584689239553"
