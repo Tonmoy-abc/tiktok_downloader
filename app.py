@@ -96,4 +96,4 @@ if __name__ == '__main__':
         else:
             print('[-] invalid args. please check app.py -h for help')
     else:
-        print("Specify Url with -u")
+        print("Specify Url with -u or  --url")
