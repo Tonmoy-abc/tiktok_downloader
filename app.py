@@ -92,7 +92,7 @@ if __name__ == '__main__':
         if args.download:
             Download(args.url, status=1)
         elif args.info:
-            print(Download(status=0))
+            print(Download(args.url, status=0))
         else:
             print('[-] invalid args. please check app.py -h for help')
     else:
