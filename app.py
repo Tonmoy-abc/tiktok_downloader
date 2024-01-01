@@ -12,7 +12,7 @@ def saveHtml(name, data):
         f.write(data)
         f.close()
 
-def Download(url, status, DEBUG=True)->dict:
+def Download(url, status, DEBUG=False)->dict:
     headers = {
         'authority': 'www.tiktok.com',
         'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
