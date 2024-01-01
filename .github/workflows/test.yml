@@ -24,4 +24,4 @@ jobs:
 
       - name: Run Python Script
         run: |
-          python app.py --url "https://www.tiktok.com/@asphalt_9official/video/7216255815844465966?is_from_webapp=1&sender_device=pc&web_id=7307208584689239553"
+          python app.py --url "https://www.tiktok.com/@asphalt_9official/video/7216255815844465966?is_from_webapp=1&sender_device=pc&web_id=7307208584689239553" --info
