@@ -12,6 +12,7 @@ def saveHtml(name, data):
         f.write(data)
         f.close()
 
+
 def Download(url, status, DEBUG=False)->dict:
     headers = {
         'authority': 'www.tiktok.com',
